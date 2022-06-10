@@ -31,7 +31,6 @@ async def on_message(message):
         print(oldMessage.content)
     if message.author == client.user:
         return 
-    print(message.content)
     if message.content.lower() == ("!monkey"):
         print("monkey called")
         randval1 = random.randrange(490,500)
@@ -63,8 +62,7 @@ async def on_message(message):
         randInt = random.randint(1,20)
         print(randInt)
         if(randInt == 4 ):
-            print("sidra was told to shut up")
-            await message.channel.send("stop it sidra")
+            await message.channel.send("stop it")
     if message.content.lower() == ("egg"):
         print("egg called")
         await message.channel.send("egg")
