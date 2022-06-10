@@ -1,2 +1,6 @@
-# DiscordBot
-Simple discord bot built with Discord.py and references the Astros API to get simple data on the ISS. 
+# EggBot
+Simple Discord bot built using Discord.py that has random uses such as:
+
+!monkey --> Generates random picture of monkey
+egg     --> Says egg back
+etc
